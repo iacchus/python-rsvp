@@ -18,7 +18,7 @@ keywords_option = click.option(
 #     help="Kaomoji database file name.")
 
 @cli.command()
-def rsvp(keywords):
+def read(keywords):
     print(keywords)
 
 if __name__ == "__main__":
